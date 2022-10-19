@@ -25,8 +25,20 @@ Mạng máy tính là gì? Hiểu khái niệm đơn giản thì mạng máy tí
 # [**CHIA IPV4 theo Host**](#Chia-ipv4)
 
 <p align="center">
+    <img src="https://user-images.githubusercontent.com/91842746/196668952-6abbfd06-fee1-4898-80fb-3e2bec5e51a7.png" width="1280" />
+</p>
+
+<p align="center">
     <img src="https://user-images.githubusercontent.com/91842746/196666290-dc8e56fe-dbdc-4f0f-a5a0-348571178a9d.png" width="1280" />
 </p>
 
 
+
 # [**CẤU HÌNH ROUTER**](#router)
+- Router 1
+![Screenshot 2022-10-19 174139](https://user-images.githubusercontent.com/91842746/196669684-d19d6276-e840-4ec1-b9b7-e8b2b376cbbc.png)
+- Router 2
+![Screenshot 2022-10-19 174408](https://user-images.githubusercontent.com/91842746/196670225-52067292-fc2c-4d89-ae8e-594227877df7.png)
+
+
+
