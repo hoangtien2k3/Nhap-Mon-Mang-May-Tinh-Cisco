@@ -1,4 +1,4 @@
-<h1 align="center"> Nhập Môn Mạng Máy Tính - Cisco Packet Tracer <br/></h1>
+<h1 align="center"> Cấu Hình Mạng Máy Tính - Cisco Packet Tracer <br/></h1>
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91842746/196658865-aabe823f-5994-4b96-a9e8-af97098d9a7a.png" width="1280" />
@@ -17,9 +17,41 @@
 - [**Made with 💘 and Vietnamese <img src="https://cdn.britannica.com/41/4041-004-D051B135/Flag-Vietnam.jpg" width="30">**](#made-with--and-vietnamese-)
 
 
-# [**Introduction**](#introduction)
-1. Mạng máy tính là gì? 
-Mạng máy tính là gì? Hiểu khái niệm đơn giản thì mạng máy tính chính là một sự kết hợp giữa các máy tính trong một hệ thống. Điều đặc biệt đó là các máy tính này sẽ liên kết với nhau thông qua các thiết bị kết nối mạng và phương tiện truyền thông như: Giao thức mạng, môi trường truyền dẫn. Theo đó, chúng sẽ dựa trên một cấu trúc nào đó với mục đích thu thập, trao đổi các dữ liệu và chia sẻ tài nguyên cho nhiều người dùng khác nhau.
+# [**Đề Bài**]
+A. Scenarior: Implement network for Company BKACAD with 2 SITEs connect to the INTERNET. The company uses both IPv4 and IPv6 for the network, detail as follow:
+
+- SITE1-LAN2 use only IPv4 address.
+- SITE1-LAN1 use both IPv4 and IPv6 address (dual stack).
+- Wan link use both IPv4 and IPv6 address (dual stack).
+- SITE2-LAN3 use only IPv6 address
+- Note: DNSv4 assign only IPv4 address, and DNSv6 assign only IPv6 address.
+
+B. The tasks are performed by following parameters:
+1. IP Address planning:
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91842746/196716380-d0941424-d210-4cec-b1af-edd0dc933fc7.png" width="1200" />
+</p>
+ 
+2.Assign IP address, subnet mask, default gateway to the networking devices.
+a. All routers and server are assigned IP address manually as following rule:
+- Router interface : +1
+- DHCP : +2
+- WEB,MAIL : +3
+- DNS: +4
+- TFTP : +5, PC1 : +11, PC2 : +12; PC3 : +13; PC4 : +14
+- Note:  PC5, PC6, PC7, PC8 : assigned IP address by DHCP server.
+
+Ex: In the subnetwork: 192.168.1.128/25. (there are DHCP, PC5)
+Router's interface : 192.168.1.129   (128+1).
+DHCP server :192.168.1.130           (128+2).
+PC4 client : 192.168.1.142           (128+14)
+ 
+
+3. Basic router configuration:
+- Overall requirements: all network segments in the network diagram can connect to each other (example: ping and tranceroute work for to reach all devices and PCs); users can telnet to get access to router CLI.
+
+![Screenshot 2022-10-19 211842](https://user-images.githubusercontent.com/91842746/196717390-173ffddc-5a43-44bb-9d9e-fe446c5f1c7f.png)
+
 
 
 # [**CHIA IPV4 theo Host**](#Chia-ipv4)
