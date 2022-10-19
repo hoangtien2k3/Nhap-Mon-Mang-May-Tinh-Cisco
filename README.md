@@ -28,3 +28,5 @@ Mạng máy tính là gì? Hiểu khái niệm đơn giản thì mạng máy tí
     <img src="https://user-images.githubusercontent.com/91842746/196666290-dc8e56fe-dbdc-4f0f-a5a0-348571178a9d.png" width="1280" />
 </p>
 
+
+# [**CẤU HÌNH ROUTER**](#router)
