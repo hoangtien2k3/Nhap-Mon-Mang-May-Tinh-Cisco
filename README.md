@@ -22,3 +22,9 @@
 Mạng máy tính là gì? Hiểu khái niệm đơn giản thì mạng máy tính chính là một sự kết hợp giữa các máy tính trong một hệ thống. Điều đặc biệt đó là các máy tính này sẽ liên kết với nhau thông qua các thiết bị kết nối mạng và phương tiện truyền thông như: Giao thức mạng, môi trường truyền dẫn. Theo đó, chúng sẽ dựa trên một cấu trúc nào đó với mục đích thu thập, trao đổi các dữ liệu và chia sẻ tài nguyên cho nhiều người dùng khác nhau.
 
 
+# [**CHIA IPV4 theo Host**](#Chia-ipv4)
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91842746/196666290-dc8e56fe-dbdc-4f0f-a5a0-348571178a9d.png" width="1280" />
+</p>
+
